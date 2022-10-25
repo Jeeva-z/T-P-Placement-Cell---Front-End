@@ -1,0 +1,117 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body{
+    padding-top:8%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right,pink, rgb(196, 85, 237));
+}
+.login-container{
+    background-color: white;
+    height:60vh;
+    width:25%;
+    border-radius: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 1px 4px 4px rgba(120,120,120,0.5);
+}
+
+.title-container{
+    width:100%;
+    height:20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.login-container .inputforlogin{
+    height:4vh; 
+    width: 100%;
+    padding: 0 4px;
+}
+
+.login-container .login-text{
+    height:70%;
+    width:75%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    color:rgb(14, 14, 14);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    row-gap: 5px;
+}
+
+.login-container .login-text h4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login-container .login-text .text-container{
+    height:60%;
+    width:100%;
+}
+
+.login-container .login-text .buttons-container{
+    width:100%;
+    height:40%;
+    display: flex;
+    position: relative;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.login-container .login-text .buttons-container .login-btn{
+    background-color: rgb(135, 47, 211);
+    width:100%;
+    height:5vh;
+}
+
+.login-container .login-text .buttons-container button{
+    background-color: rgb(135, 47, 211);
+    border:none;
+    color:aliceblue;
+    width: 100%;
+    height: 100%;
+}
+
+.buttons-container hr{
+    display: flex;
+}
+
+.buttons-container .left-hr{
+    bottom:45px;
+    width:40%;
+    position:absolute;
+    left:0;
+    background-color: rgb(12, 12, 12);
+}
+
+.buttons-container .right-hr{
+    width:40%;
+    bottom: 45px;
+    position:absolute;
+    right:0;
+    background-color: rgb(8, 8, 8);
+}
+
+.login-container .login-text .buttons-container .google-login-btn{
+    background-color: rgb(228, 63, 51);
+    width:100%;
+    height:5vh;
+}
+
+.login-container .login-text .buttons-container .google-login-btn button{
+    background-color: rgb(228, 63, 51);
+    width: 100%;
+    height: 100%;
+}
+
+
